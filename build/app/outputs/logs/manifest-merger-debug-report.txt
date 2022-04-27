@@ -1,0 +1,117 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:10:5-48:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/1358264eed62ffe0ebcd4726114d9206/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/1358264eed62ffe0ebcd4726114d9206/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.6.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/dcfb90d56760b4bedcc8558d12543dd3/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/dcfb90d56760b4bedcc8558d12543dd3/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/491237865ad9caf848c477252190d771/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/491237865ad9caf848c477252190d771/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/dcfb90d56760b4bedcc8558d12543dd3/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:name
+		INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:1:1-49:12
+MERGED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:1:1-49:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/c58c3993e3b5182329ecd130c1dd10db/window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/1358264eed62ffe0ebcd4726114d9206/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/293b9abd2eb272e873253661c58c369c/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/52664f4c2212366316d5d27f589c3c02/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/660ae9fa685b0dae833d8182baaa48cd/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/024538878c14b4d616afd8c132a13204/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/11e836cd2b15efc3fe55439d43852921/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/dcfb90d56760b4bedcc8558d12543dd3/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/97be06ce758a55ea72d0d7c8496a0c99/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/c9b1f6620f43493d524f9ac61798ff9c/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/da5440f1ffe2a8c2ec03402c4ad96148/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/1f903bbbe69145ba3246c19d13766e1e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/e867eb9a0a953c1e287239f270ee7ee1/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/8ccaf7fe4ad6b000436b8155986bd04b/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/491237865ad9caf848c477252190d771/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/47b7d07dae849aeba90fa79e851f99aa/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/3c9e27ad7047d6fb22510f14fba883da/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:2:5-38
+		INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:1:1-49:12
+		INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:1:1-49:12
+		INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-sdk
+INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/c58c3993e3b5182329ecd130c1dd10db/window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/c58c3993e3b5182329ecd130c1dd10db/window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/1358264eed62ffe0ebcd4726114d9206/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/1358264eed62ffe0ebcd4726114d9206/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/293b9abd2eb272e873253661c58c369c/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/293b9abd2eb272e873253661c58c369c/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/52664f4c2212366316d5d27f589c3c02/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/52664f4c2212366316d5d27f589c3c02/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/660ae9fa685b0dae833d8182baaa48cd/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/660ae9fa685b0dae833d8182baaa48cd/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/024538878c14b4d616afd8c132a13204/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/024538878c14b4d616afd8c132a13204/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/11e836cd2b15efc3fe55439d43852921/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/11e836cd2b15efc3fe55439d43852921/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/dcfb90d56760b4bedcc8558d12543dd3/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/dcfb90d56760b4bedcc8558d12543dd3/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/97be06ce758a55ea72d0d7c8496a0c99/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/97be06ce758a55ea72d0d7c8496a0c99/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/c9b1f6620f43493d524f9ac61798ff9c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/c9b1f6620f43493d524f9ac61798ff9c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/da5440f1ffe2a8c2ec03402c4ad96148/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/da5440f1ffe2a8c2ec03402c4ad96148/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/1f903bbbe69145ba3246c19d13766e1e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/1f903bbbe69145ba3246c19d13766e1e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/e867eb9a0a953c1e287239f270ee7ee1/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/e867eb9a0a953c1e287239f270ee7ee1/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/8ccaf7fe4ad6b000436b8155986bd04b/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/8ccaf7fe4ad6b000436b8155986bd04b/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/491237865ad9caf848c477252190d771/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/491237865ad9caf848c477252190d771/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/47b7d07dae849aeba90fa79e851f99aa/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/47b7d07dae849aeba90fa79e851f99aa/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/3c9e27ad7047d6fb22510f14fba883da/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/3c9e27ad7047d6fb22510f14fba883da/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/debug/AndroidManifest.xml
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/1358264eed62ffe0ebcd4726114d9206/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/1358264eed62ffe0ebcd4726114d9206/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/1358264eed62ffe0ebcd4726114d9206/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/1358264eed62ffe0ebcd4726114d9206/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/1358264eed62ffe0ebcd4726114d9206/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/1358264eed62ffe0ebcd4726114d9206/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51

@@ -1,0 +1,4 @@
+#Wed Apr 27 16:48:39 BDT 2022
+base.0=/Users/jyoti/Development/Flutter/CU Weather/Weather/build/app/intermediates/transforms/r8/release/0/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
