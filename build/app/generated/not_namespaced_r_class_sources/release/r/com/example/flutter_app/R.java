@@ -300,18 +300,19 @@ public final class R {
   }
   public static final class drawable {
     public static final int launch_background=0x7f040000;
-    public static final int notification_action_background=0x7f040001;
-    public static final int notification_bg=0x7f040002;
-    public static final int notification_bg_low=0x7f040003;
-    public static final int notification_bg_low_normal=0x7f040004;
-    public static final int notification_bg_low_pressed=0x7f040005;
-    public static final int notification_bg_normal=0x7f040006;
-    public static final int notification_bg_normal_pressed=0x7f040007;
-    public static final int notification_icon_background=0x7f040008;
-    public static final int notification_template_icon_bg=0x7f040009;
-    public static final int notification_template_icon_low_bg=0x7f04000a;
-    public static final int notification_tile_bg=0x7f04000b;
-    public static final int notify_panel_notification_icon_bg=0x7f04000c;
+    public static final int logo=0x7f040001;
+    public static final int notification_action_background=0x7f040002;
+    public static final int notification_bg=0x7f040003;
+    public static final int notification_bg_low=0x7f040004;
+    public static final int notification_bg_low_normal=0x7f040005;
+    public static final int notification_bg_low_pressed=0x7f040006;
+    public static final int notification_bg_normal=0x7f040007;
+    public static final int notification_bg_normal_pressed=0x7f040008;
+    public static final int notification_icon_background=0x7f040009;
+    public static final int notification_template_icon_bg=0x7f04000a;
+    public static final int notification_template_icon_low_bg=0x7f04000b;
+    public static final int notification_tile_bg=0x7f04000c;
+    public static final int notify_panel_notification_icon_bg=0x7f04000d;
   }
   public static final class id {
     public static final int accessibility_action_clickable_span=0x7f050000;
@@ -428,8 +429,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityFilter_activityAction com.example.flutter_app:activityAction}</code></td><td>Action used for activity launch.</td></tr>
-     * <tr><td><code>{@link #ActivityFilter_activityName com.example.flutter_app:activityName}</code></td><td>Component name of the primary activity in the split.</td></tr>
+     * <tr><td><code>{@link #ActivityFilter_activityAction com.jyoti.weather:activityAction}</code></td><td>Action used for activity launch.</td></tr>
+     * <tr><td><code>{@link #ActivityFilter_activityName com.jyoti.weather:activityName}</code></td><td>Component name of the primary activity in the split.</td></tr>
      * </table>
      * @see #ActivityFilter_activityAction
      * @see #ActivityFilter_activityName
@@ -445,7 +446,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.flutter_app:activityAction
+     * @attr name com.jyoti.weather:activityAction
      */
     public static final int ActivityFilter_activityAction=0;
     /**
@@ -457,7 +458,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.flutter_app:activityName
+     * @attr name com.jyoti.weather:activityName
      */
     public static final int ActivityFilter_activityName=1;
     /**
@@ -467,7 +468,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityRule_alwaysExpand com.example.flutter_app:alwaysExpand}</code></td><td>Whether the activity should always be expanded on launch.</td></tr>
+     * <tr><td><code>{@link #ActivityRule_alwaysExpand com.jyoti.weather:alwaysExpand}</code></td><td>Whether the activity should always be expanded on launch.</td></tr>
      * </table>
      * @see #ActivityRule_alwaysExpand
      */
@@ -482,7 +483,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.flutter_app:alwaysExpand
+     * @attr name com.jyoti.weather:alwaysExpand
      */
     public static final int ActivityRule_alwaysExpand=0;
     /**
@@ -492,8 +493,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #Capability_queryPatterns com.example.flutter_app:queryPatterns}</code></td><td>Resource reference to the string array of query patterns for a custom capability.</td></tr>
-     * <tr><td><code>{@link #Capability_shortcutMatchRequired com.example.flutter_app:shortcutMatchRequired}</code></td><td>Indicates whether a parameter in a capability template can only contain a matched
+     * <tr><td><code>{@link #Capability_queryPatterns com.jyoti.weather:queryPatterns}</code></td><td>Resource reference to the string array of query patterns for a custom capability.</td></tr>
+     * <tr><td><code>{@link #Capability_shortcutMatchRequired com.jyoti.weather:shortcutMatchRequired}</code></td><td>Indicates whether a parameter in a capability template can only contain a matched
      * shortcut id and not an arbitrary string.</td></tr>
      * </table>
      * @see #Capability_queryPatterns
@@ -512,7 +513,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.flutter_app:queryPatterns
+     * @attr name com.jyoti.weather:queryPatterns
      */
     public static final int Capability_queryPatterns=0;
     /**
@@ -524,7 +525,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.flutter_app:shortcutMatchRequired
+     * @attr name com.jyoti.weather:shortcutMatchRequired
      */
     public static final int Capability_shortcutMatchRequired=1;
     /**
@@ -536,7 +537,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.example.flutter_app:alpha}</code></td><td>Alpha multiplier applied to the base color.</td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.jyoti.weather:alpha}</code></td><td>Alpha multiplier applied to the base color.</td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -573,7 +574,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.flutter_app:alpha
+     * @attr name com.jyoti.weather:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -583,13 +584,13 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.example.flutter_app:fontProviderAuthority}</code></td><td>The authority of the Font Provider to be used for the request.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.example.flutter_app:fontProviderCerts}</code></td><td>The sets of hashes for the certificates the provider should be signed with.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.example.flutter_app:fontProviderFetchStrategy}</code></td><td>The strategy to be used when fetching font data from a font provider in XML layouts.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.example.flutter_app:fontProviderFetchTimeout}</code></td><td>The length of the timeout during fetching.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.example.flutter_app:fontProviderPackage}</code></td><td>The package for the Font Provider to be used for the request.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.example.flutter_app:fontProviderQuery}</code></td><td>The query to be sent over to the provider.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderSystemFontFamily com.example.flutter_app:fontProviderSystemFontFamily}</code></td><td>Provides the system font family name to check before downloading the font.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.jyoti.weather:fontProviderAuthority}</code></td><td>The authority of the Font Provider to be used for the request.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.jyoti.weather:fontProviderCerts}</code></td><td>The sets of hashes for the certificates the provider should be signed with.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.jyoti.weather:fontProviderFetchStrategy}</code></td><td>The strategy to be used when fetching font data from a font provider in XML layouts.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.jyoti.weather:fontProviderFetchTimeout}</code></td><td>The length of the timeout during fetching.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.jyoti.weather:fontProviderPackage}</code></td><td>The package for the Font Provider to be used for the request.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.jyoti.weather:fontProviderQuery}</code></td><td>The query to be sent over to the provider.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderSystemFontFamily com.jyoti.weather:fontProviderSystemFontFamily}</code></td><td>Provides the system font family name to check before downloading the font.</td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -611,7 +612,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.flutter_app:fontProviderAuthority
+     * @attr name com.jyoti.weather:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
@@ -628,7 +629,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.flutter_app:fontProviderCerts
+     * @attr name com.jyoti.weather:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
@@ -660,7 +661,7 @@ public final class R {
      * default typeface will be used instead.</td></tr>
      * </table>
      *
-     * @attr name com.example.flutter_app:fontProviderFetchStrategy
+     * @attr name com.jyoti.weather:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
@@ -679,7 +680,7 @@ public final class R {
      * timeout and wait until a reply is received from the font provider.</td></tr>
      * </table>
      *
-     * @attr name com.example.flutter_app:fontProviderFetchTimeout
+     * @attr name com.jyoti.weather:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
@@ -691,7 +692,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.flutter_app:fontProviderPackage
+     * @attr name com.jyoti.weather:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
@@ -703,7 +704,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.flutter_app:fontProviderQuery
+     * @attr name com.jyoti.weather:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -717,7 +718,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.flutter_app:fontProviderSystemFontFamily
+     * @attr name com.jyoti.weather:fontProviderSystemFontFamily
      */
     public static final int FontFamily_fontProviderSystemFontFamily=6;
     /**
@@ -732,11 +733,11 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.example.flutter_app:font}</code></td><td>The reference to the font file to be used.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.example.flutter_app:fontStyle}</code></td><td>The style of the given font file.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.example.flutter_app:fontVariationSettings}</code></td><td>The variation settings to be applied to the font.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.example.flutter_app:fontWeight}</code></td><td>The weight of the given font file.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.example.flutter_app:ttcIndex}</code></td><td>The index of the font in the tcc font file.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.jyoti.weather:font}</code></td><td>The reference to the font file to be used.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.jyoti.weather:fontStyle}</code></td><td>The style of the given font file.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.jyoti.weather:fontVariationSettings}</code></td><td>The variation settings to be applied to the font.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.jyoti.weather:fontWeight}</code></td><td>The weight of the given font file.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.jyoti.weather:ttcIndex}</code></td><td>The index of the font in the tcc font file.</td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -823,7 +824,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.flutter_app:font
+     * @attr name com.jyoti.weather:font
      */
     public static final int FontFamilyFont_font=5;
     /**
@@ -843,7 +844,7 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.flutter_app:fontStyle
+     * @attr name com.jyoti.weather:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=6;
     /**
@@ -857,7 +858,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.flutter_app:fontVariationSettings
+     * @attr name com.jyoti.weather:fontVariationSettings
      */
     public static final int FontFamilyFont_fontVariationSettings=7;
     /**
@@ -871,7 +872,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.flutter_app:fontWeight
+     * @attr name com.jyoti.weather:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=8;
     /**
@@ -882,7 +883,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.flutter_app:ttcIndex
+     * @attr name com.jyoti.weather:ttcIndex
      */
     public static final int FontFamilyFont_ttcIndex=9;
     /**
@@ -1135,9 +1136,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SplitPairFilter_primaryActivityName com.example.flutter_app:primaryActivityName}</code></td><td>Component name of the primary activity in the split.</td></tr>
-     * <tr><td><code>{@link #SplitPairFilter_secondaryActivityAction com.example.flutter_app:secondaryActivityAction}</code></td><td>Action used for secondary activity launch.</td></tr>
-     * <tr><td><code>{@link #SplitPairFilter_secondaryActivityName com.example.flutter_app:secondaryActivityName}</code></td><td>Component name of the secondary activity in the split.</td></tr>
+     * <tr><td><code>{@link #SplitPairFilter_primaryActivityName com.jyoti.weather:primaryActivityName}</code></td><td>Component name of the primary activity in the split.</td></tr>
+     * <tr><td><code>{@link #SplitPairFilter_secondaryActivityAction com.jyoti.weather:secondaryActivityAction}</code></td><td>Action used for secondary activity launch.</td></tr>
+     * <tr><td><code>{@link #SplitPairFilter_secondaryActivityName com.jyoti.weather:secondaryActivityName}</code></td><td>Component name of the secondary activity in the split.</td></tr>
      * </table>
      * @see #SplitPairFilter_primaryActivityName
      * @see #SplitPairFilter_secondaryActivityAction
@@ -1155,7 +1156,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.flutter_app:primaryActivityName
+     * @attr name com.jyoti.weather:primaryActivityName
      */
     public static final int SplitPairFilter_primaryActivityName=0;
     /**
@@ -1166,7 +1167,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.flutter_app:secondaryActivityAction
+     * @attr name com.jyoti.weather:secondaryActivityAction
      */
     public static final int SplitPairFilter_secondaryActivityAction=1;
     /**
@@ -1178,7 +1179,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.flutter_app:secondaryActivityName
+     * @attr name com.jyoti.weather:secondaryActivityName
      */
     public static final int SplitPairFilter_secondaryActivityName=2;
     /**
@@ -1188,17 +1189,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SplitPairRule_clearTop com.example.flutter_app:clearTop}</code></td><td>If there is an existing split with the same primary container, indicates whether the
+     * <tr><td><code>{@link #SplitPairRule_clearTop com.jyoti.weather:clearTop}</code></td><td>If there is an existing split with the same primary container, indicates whether the
      * existing secondary container on top and all activities in it should be destroyed when a new
      * split is created using this rule.</td></tr>
-     * <tr><td><code>{@link #SplitPairRule_finishPrimaryWithSecondary com.example.flutter_app:finishPrimaryWithSecondary}</code></td><td>When all activities are finished in the secondary container, the activity in the
+     * <tr><td><code>{@link #SplitPairRule_finishPrimaryWithSecondary com.jyoti.weather:finishPrimaryWithSecondary}</code></td><td>When all activities are finished in the secondary container, the activity in the
      * primary container that created the split should also be finished.</td></tr>
-     * <tr><td><code>{@link #SplitPairRule_finishSecondaryWithPrimary com.example.flutter_app:finishSecondaryWithPrimary}</code></td><td>When all activities are finished in the primary container, the activities in the
+     * <tr><td><code>{@link #SplitPairRule_finishSecondaryWithPrimary com.jyoti.weather:finishSecondaryWithPrimary}</code></td><td>When all activities are finished in the primary container, the activities in the
      * secondary container in the split should also be finished.</td></tr>
-     * <tr><td><code>{@link #SplitPairRule_splitLayoutDirection com.example.flutter_app:splitLayoutDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SplitPairRule_splitMinSmallestWidth com.example.flutter_app:splitMinSmallestWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SplitPairRule_splitMinWidth com.example.flutter_app:splitMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SplitPairRule_splitRatio com.example.flutter_app:splitRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SplitPairRule_splitLayoutDirection com.jyoti.weather:splitLayoutDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SplitPairRule_splitMinSmallestWidth com.jyoti.weather:splitMinSmallestWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SplitPairRule_splitMinWidth com.jyoti.weather:splitMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SplitPairRule_splitRatio com.jyoti.weather:splitRatio}</code></td><td></td></tr>
      * </table>
      * @see #SplitPairRule_clearTop
      * @see #SplitPairRule_finishPrimaryWithSecondary
@@ -1223,7 +1224,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.flutter_app:clearTop
+     * @attr name com.jyoti.weather:clearTop
      */
     public static final int SplitPairRule_clearTop=0;
     /**
@@ -1235,7 +1236,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.flutter_app:finishPrimaryWithSecondary
+     * @attr name com.jyoti.weather:finishPrimaryWithSecondary
      */
     public static final int SplitPairRule_finishPrimaryWithSecondary=1;
     /**
@@ -1247,11 +1248,11 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.flutter_app:finishSecondaryWithPrimary
+     * @attr name com.jyoti.weather:finishSecondaryWithPrimary
      */
     public static final int SplitPairRule_finishSecondaryWithPrimary=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.flutter_app.R.attr#splitLayoutDirection}
+     * <p>This symbol is the offset where the {@link com.jyoti.weather.R.attr#splitLayoutDirection}
      * attribute's value can be found in the {@link #SplitPairRule} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -1265,11 +1266,11 @@ public final class R {
      * <tr><td>rtl</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.flutter_app:splitLayoutDirection
+     * @attr name com.jyoti.weather:splitLayoutDirection
      */
     public static final int SplitPairRule_splitLayoutDirection=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.flutter_app.R.attr#splitMinSmallestWidth}
+     * <p>This symbol is the offset where the {@link com.jyoti.weather.R.attr#splitMinSmallestWidth}
      * attribute's value can be found in the {@link #SplitPairRule} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -1278,11 +1279,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.flutter_app:splitMinSmallestWidth
+     * @attr name com.jyoti.weather:splitMinSmallestWidth
      */
     public static final int SplitPairRule_splitMinSmallestWidth=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.flutter_app.R.attr#splitMinWidth}
+     * <p>This symbol is the offset where the {@link com.jyoti.weather.R.attr#splitMinWidth}
      * attribute's value can be found in the {@link #SplitPairRule} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -1291,16 +1292,16 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.flutter_app:splitMinWidth
+     * @attr name com.jyoti.weather:splitMinWidth
      */
     public static final int SplitPairRule_splitMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.flutter_app.R.attr#splitRatio}
+     * <p>This symbol is the offset where the {@link com.jyoti.weather.R.attr#splitRatio}
      * attribute's value can be found in the {@link #SplitPairRule} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.flutter_app:splitRatio
+     * @attr name com.jyoti.weather:splitRatio
      */
     public static final int SplitPairRule_splitRatio=6;
     /**
@@ -1310,11 +1311,11 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SplitPlaceholderRule_placeholderActivityName com.example.flutter_app:placeholderActivityName}</code></td><td>Component name of the placeholder activity in the split.</td></tr>
-     * <tr><td><code>{@link #SplitPlaceholderRule_splitLayoutDirection com.example.flutter_app:splitLayoutDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SplitPlaceholderRule_splitMinSmallestWidth com.example.flutter_app:splitMinSmallestWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SplitPlaceholderRule_splitMinWidth com.example.flutter_app:splitMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SplitPlaceholderRule_splitRatio com.example.flutter_app:splitRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SplitPlaceholderRule_placeholderActivityName com.jyoti.weather:placeholderActivityName}</code></td><td>Component name of the placeholder activity in the split.</td></tr>
+     * <tr><td><code>{@link #SplitPlaceholderRule_splitLayoutDirection com.jyoti.weather:splitLayoutDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SplitPlaceholderRule_splitMinSmallestWidth com.jyoti.weather:splitMinSmallestWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SplitPlaceholderRule_splitMinWidth com.jyoti.weather:splitMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SplitPlaceholderRule_splitRatio com.jyoti.weather:splitRatio}</code></td><td></td></tr>
      * </table>
      * @see #SplitPlaceholderRule_placeholderActivityName
      * @see #SplitPlaceholderRule_splitLayoutDirection
@@ -1334,11 +1335,11 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.flutter_app:placeholderActivityName
+     * @attr name com.jyoti.weather:placeholderActivityName
      */
     public static final int SplitPlaceholderRule_placeholderActivityName=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.flutter_app.R.attr#splitLayoutDirection}
+     * <p>This symbol is the offset where the {@link com.jyoti.weather.R.attr#splitLayoutDirection}
      * attribute's value can be found in the {@link #SplitPlaceholderRule} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -1352,11 +1353,11 @@ public final class R {
      * <tr><td>rtl</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.flutter_app:splitLayoutDirection
+     * @attr name com.jyoti.weather:splitLayoutDirection
      */
     public static final int SplitPlaceholderRule_splitLayoutDirection=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.flutter_app.R.attr#splitMinSmallestWidth}
+     * <p>This symbol is the offset where the {@link com.jyoti.weather.R.attr#splitMinSmallestWidth}
      * attribute's value can be found in the {@link #SplitPlaceholderRule} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -1365,11 +1366,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.flutter_app:splitMinSmallestWidth
+     * @attr name com.jyoti.weather:splitMinSmallestWidth
      */
     public static final int SplitPlaceholderRule_splitMinSmallestWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.flutter_app.R.attr#splitMinWidth}
+     * <p>This symbol is the offset where the {@link com.jyoti.weather.R.attr#splitMinWidth}
      * attribute's value can be found in the {@link #SplitPlaceholderRule} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -1378,16 +1379,16 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.flutter_app:splitMinWidth
+     * @attr name com.jyoti.weather:splitMinWidth
      */
     public static final int SplitPlaceholderRule_splitMinWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.flutter_app.R.attr#splitRatio}
+     * <p>This symbol is the offset where the {@link com.jyoti.weather.R.attr#splitRatio}
      * attribute's value can be found in the {@link #SplitPlaceholderRule} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.flutter_app:splitRatio
+     * @attr name com.jyoti.weather:splitRatio
      */
     public static final int SplitPlaceholderRule_splitRatio=4;
   }

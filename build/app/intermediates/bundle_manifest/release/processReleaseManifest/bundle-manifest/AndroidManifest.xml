@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutter_app"
+    package="com.jyoti.weather"
     android:versionCode="1"
     android:versionName="1.0.0" >
 
@@ -19,7 +19,7 @@
     <application
         android:name="android.app.Application"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="CU Weather Station" >
         <activity
             android:name="com.example.flutter_app.MainActivity"

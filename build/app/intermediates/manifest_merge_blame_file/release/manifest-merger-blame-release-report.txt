@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.flutter_app"
+3    package="com.jyoti.weather"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -25,8 +25,8 @@
 20-->/Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:11:9-42
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.6.0] /Users/jyoti/.gradle/caches/transforms-2/files-2.1/dcfb90d56760b4bedcc8558d12543dd3/core-1.6.0/AndroidManifest.xml:24:18-86
-22        android:icon="@mipmap/ic_launcher"
-22-->/Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:13:9-43
+22        android:icon="@drawable/logo"
+22-->/Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:13:9-38
 23        android:label="CU Weather Station" >
 23-->/Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:12:9-43
 24        <activity

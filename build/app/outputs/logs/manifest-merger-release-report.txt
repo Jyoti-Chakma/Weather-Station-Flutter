@@ -12,7 +12,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jyot
 	android:label
 		ADDED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:12:9-43
 	android:icon
-		ADDED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:13:9-43
+		ADDED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:13:9-38
 	android:name
 		INJECTED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:11:9-42

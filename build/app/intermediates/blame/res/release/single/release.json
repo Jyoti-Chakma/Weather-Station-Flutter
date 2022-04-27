@@ -32,6 +32,10 @@
         "source": "/Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/jyoti/Development/Flutter/CU Weather/Weather/build/app/intermediates/res/merged/release/drawable_logo.png.flat",
+        "source": "/Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/res/drawable/logo.png"
+    },
+    {
         "merged": "/Users/jyoti/Development/Flutter/CU Weather/Weather/build/app/intermediates/res/merged/release/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
         "source": "/Users/jyoti/.gradle/caches/transforms-2/files-2.1/dcfb90d56760b4bedcc8558d12543dd3/core-1.6.0/res/drawable-hdpi-v4/notification_bg_normal.9.png"
     },
