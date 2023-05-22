@@ -1,6 +1,6 @@
 # Weather Station
 
-This project is for developing a weather station Flutter. It uses Open Weather API to get the weather data.
+This project is for developing a weather station using Flutter. It uses Open Weather API to get the weather data.
 
 ## Acknowledgements
 
