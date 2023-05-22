@@ -30,7 +30,7 @@ class _HomeState extends State<Home> {
 
   Future getWeather(String location) async {
     http.Response response = await http.get(
-      "http://api.openweathermap.org/data/2.5/weather?q=$location&units=metric&appid=7f878c0faa2ff8b3bcd800e5e4633fe5",
+      "http://api.openweathermap.org/data/2.5/weather?q=$location&units=metric&appid=7f878c0faa2ff8b3bcd800e5e4633fe5" as Uri,
     );
 
     if (response.statusCode != 200) {
