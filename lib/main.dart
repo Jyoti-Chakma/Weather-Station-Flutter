@@ -1,16 +1,17 @@
 import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 void main() => runApp(
-      MaterialApp(
-        title: "Weather Station",
-        home: Home(),
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(primarySwatch: Colors.indigo),
-      ),
-    );
+  MaterialApp(
+    title: "Weather Station",
+    home: Home(),
+    debugShowCheckedModeBanner: false,
+    theme: ThemeData(primarySwatch: Colors.indigo),
+  ),
+);
 
 class Home extends StatefulWidget {
   @override
@@ -28,35 +29,41 @@ class _HomeState extends State<Home> {
   var windSpeed;
   var location;
 
-  Future getWeather(String location) async {
-    http.Response response = await http.get(
-      "http://api.openweathermap.org/data/2.5/weather?q=$location&units=metric&appid=7f878c0faa2ff8b3bcd800e5e4633fe5" as Uri,
+  Future<void> getWeather(String location) async {
+    var url = Uri.https(
+      "api.openweathermap.org",
+      "/data/2.5/weather",
+      {
+        "q": location,
+        "units": "metric",
+        "appid": "7f878c0faa2ff8b3bcd800e5e4633fe5",
+      },
     );
+
+    http.Response response = await http.get(url);
 
     if (response.statusCode != 200) {
       throw Exception();
     } else {
       var results = jsonDecode(response.body);
-      setState(
-        () {
-          this.temp = results['main']["temp"];
-          this.feelsLike = results['main']['feels_like'];
-          this.description = results['weather'][0]["description"];
-          this.weather = results['weather'][0]["main"];
-          this.humidity = results['main']["humidity"];
-          this.windSpeed = results['wind']["speed"];
-        },
-      );
+      setState(() {
+        temp = results['main']["temp"];
+        feelsLike = results['main']['feels_like'];
+        description = results['weather'][0]["description"];
+        weather = results['weather'][0]["main"];
+        humidity = results['main']["humidity"];
+        windSpeed = results['wind']["speed"];
+      });
     }
   }
 
   @override
   void initState() {
     super.initState();
-    this.getWeather("Dhaka");
+    getWeather("Dhaka");
   }
 
-  onTextFieldSubmitted(String input) {
+  void onTextFieldSubmitted(String input) {
     location = input;
     getWeather(input);
   }
@@ -85,7 +92,7 @@ class _HomeState extends State<Home> {
                   child: TextField(
                     onSubmitted: (String input) {
                       onTextFieldSubmitted(input);
-                      this.getWeather(input);
+                      getWeather(input);
                     },
                     style: TextStyle(
                       color: Colors.teal[400],
