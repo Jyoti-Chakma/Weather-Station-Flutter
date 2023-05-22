@@ -9,7 +9,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="${applicationName}"
-        android:label="CU Weather Station"
+        android:label="Weather Station"
         android:icon="@drawable/logo">
         <activity
             android:name=".MainActivity"
