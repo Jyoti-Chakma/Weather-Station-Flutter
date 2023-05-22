@@ -37,9 +37,9 @@ This project is for developing a weather station Flutter. It uses Open Weather A
 
 ## Screenshots
 
-| Dhaka Weather                                                                                    | Delhi Weather                                                                                    | Tianjin Weather                                                                                     |
-|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| ![dhaka](https://github.com/Jyoti-Chakma/Weather-Station-Flutter/blob/master/Screenshots/1.jpeg) | ![delhi](https://github.com/Jyoti-Chakma/Weather-Station-Flutter/blob/master/Screenshots/2.jpeg) | ![tianjin](https://github.com/Jyoti-Chakma/Weather-Station-Flutter/blob/master/Screenshots/1.jpeg) |
+| Dhaka Weather                                                                                    | Delhi Weather                                                                                    | Tianjin Weather                                                                                    |
+|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| ![dhaka](https://github.com/Jyoti-Chakma/Weather-Station-Flutter/blob/master/Screenshots/1.jpeg) | ![delhi](https://github.com/Jyoti-Chakma/Weather-Station-Flutter/blob/master/Screenshots/2.jpeg) | ![tianjin](https://github.com/Jyoti-Chakma/Weather-Station-Flutter/blob/master/Screenshots/3.jpeg) |
 
 
 ## License
