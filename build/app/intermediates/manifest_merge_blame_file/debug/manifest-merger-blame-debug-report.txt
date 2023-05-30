@@ -12,8 +12,8 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/Users/jyoti/Development/Flutter/CU Weather/Weather Station/android/app/src/main/AndroidManifest.xml:4:5-67
-14-->/Users/jyoti/Development/Flutter/CU Weather/Weather Station/android/app/src/main/AndroidManifest.xml:4:22-64
+14-->/Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:4:5-67
+14-->/Users/jyoti/Development/Flutter/CU Weather/Weather/android/app/src/main/AndroidManifest.xml:4:22-64
 15    <!--
 16     io.flutter.app.FlutterApplication is an android.app.Application that
 17         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -27,7 +27,7 @@
 24-->[androidx.core:core:1.6.0] /Users/jyoti/.gradle/caches/transforms-3/6fba490d1d90ace88926363eebf05e92/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 25        android:debuggable="true"
 26        android:icon="@drawable/logo"
-27        android:label="CU Weather Station" >
+27        android:label="Weather Station" >
 28        <activity
 29            android:name="com.example.flutter_app.MainActivity"
 30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"

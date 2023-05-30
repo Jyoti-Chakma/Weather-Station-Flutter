@@ -86,6 +86,7 @@ Referenced Strings:
   Active
   ActivityFilter
   ActivityRule
+  AppBundleLocaleChanges
   AppLifecycleState.detached
   AppLifecycleState.inactive
   AppLifecycleState.paused
@@ -95,6 +96,7 @@ Referenced Strings:
   BITMAP
   BITMAP_MASKABLE
   BLOCKING
+  BOLD_TEXT
   BOTH
   BOTTOM_OVERLAYS
   BanParcelableUsage
@@ -154,6 +156,7 @@ Referenced Strings:
   DeviceOrientation.landscapeRight
   DeviceOrientation.portraitDown
   DeviceOrientation.portraitUp
+  DiscouragedApi
   Dispatchers.Default
   Dispatchers.IO
   Dispatchers.Main
@@ -162,7 +165,6 @@ Referenced Strings:
   EDGE_TO_EDGE
   EMAIL_ADDRESS
   EMPTY
-  ENQUEUE_FAILED
   EmbeddingBackend
   EmbeddingCompat
   EmptyCoroutineContext
@@ -192,10 +194,11 @@ Referenced Strings:
   HAS_ENABLED_STATE
   HAS_IMPLICIT_SCROLLING
   HAS_TOGGLED_STATE
-  HC_PLATFORM_VIEW
   HEAVY_IMPACT
+  HIGH_CONTRAST
   HINGE
   HORIZONTAL
+  HYBRID_ONLY
   HapticFeedback.vibrate
   HapticFeedbackType.heavyImpact
   HapticFeedbackType.lightImpact
@@ -211,6 +214,7 @@ Referenced Strings:
   INVERT_COLORS
   IS_BUTTON
   IS_CHECKED
+  IS_CHECK_STATE_MIXED
   IS_ENABLED
   IS_FOCUSABLE
   IS_FOCUSED
@@ -221,6 +225,7 @@ Referenced Strings:
   IS_KEYBOARD_KEY
   IS_LINK
   IS_LIVE_REGION
+  IS_MULTILINE
   IS_OBSCURED
   IS_READ_ONLY
   IS_SELECTED
@@ -239,7 +244,6 @@ Referenced Strings:
   LEFT
   LIGHT
   LIGHT_IMPACT
-  LIST_EMPTY
   LOCALE
   LONG_PRESS
   LTR
@@ -270,9 +274,9 @@ Referenced Strings:
   OFFER_FAILED
   OFFER_SUCCESS
   ON_ANY
-  ON_CLOSE_HANDLER_INVOKED
   ON_CREATE
   ON_DESTROY
+  ON_OFF_SWITCH_LABELS
   ON_PAUSE
   ON_RESUME
   ON_START
@@ -303,6 +307,7 @@ Referenced Strings:
   PARKING
   PASTE
   PHONE
+  PHYSICAL_DISPLAY_PLATFORM_VIEW
   PLAIN_TEXT
   POLL_FAILED
   PORTRAIT_DOWN
@@ -315,16 +320,16 @@ Referenced Strings:
   PUBLIC
   PlatformChannel
   PlatformPlugin
+  PlatformViewWrapper
   PlatformViewsChannel
   PlatformViewsController
-  PrivateApi
   R:
+  REDUCE_MOTION
   REMOVED_TASK
   REMOVE_FROZEN
   RESOURCE
   RESUMED
   RESUME_TOKEN
-  RETRY_ATOMIC
   REUSABLE_CLAIMED
   RIGHT
   RTL
@@ -350,10 +355,13 @@ Referenced Strings:
   SendQueued
   SettingsChannel
   SidecarCompat
+  SpellCheck.initiateSpellCheck
+  SpellCheckChannel
   SplitPairFilter
   SplitPairRule
   SplitPlaceholderRule
   SplitRuleResolution
+  SwitchIntDef
   SyntheticAccessor
   SystemChannel
   SystemChrome.restoreSystemUIOverlays
@@ -378,6 +386,8 @@ Referenced Strings:
   TAP
   TERMINATED
   TEXT
+  TEXTURE_WITH_HYBRID_FALLBACK
+  TEXTURE_WITH_VIRTUAL_FALLBACK
   TOO_LATE_TO_CANCEL
   TOP_OVERLAYS
   TRANSFORM
@@ -396,6 +406,7 @@ Referenced Strings:
   TextInput.setEditingState
   TextInput.setPlatformViewClient
   TextInput.show
+  TextInputAction.commitContent
   TextInputAction.done
   TextInputAction.go
   TextInputAction.newline
@@ -424,6 +435,7 @@ Referenced Strings:
   TextInputType.text
   TextInputType.url
   TextInputType.visiblePassword
+  Trace
   UNDECIDED
   UNDEFINED
   UNDISPATCHED
@@ -434,14 +446,15 @@ Referenced Strings:
   URL
   UTF8
   V:
-  VD_PLATFORM_VIEW
   VERTICAL
+  VIRTUAL_DISPLAY_PLATFORM_VIEW
   VISIBLE_PASSWORD
   WORDS
   WindowInfoTrackerCallbackAdapter.kt
   WindowInfoTrackerImpl.kt
   WindowServer
   WrongConstant
+  ZJJ
   _bounds
   _consensus
   _cur
@@ -483,6 +496,7 @@ Referenced Strings:
   android
   android.intent.action.RUN
   android.os.Build
+  android.support.v13.view.inputmethod....
   android.type.verbatim
   android.util.LongArray
   android.view.DisplayInfo
@@ -496,12 +510,15 @@ Referenced Strings:
   android.widget.ScrollView
   android.widget.SeekBar
   android.widget.Switch
+  androidx.core.view.inputmethod.Editor...
   androidx.savedstate.Restarter
   androidx.window.java.layout.WindowInf...
   androidx.window.layout.WindowInfoTrac...
   announce
   app_flutter
   args
+  asyncTraceBegin
+  asyncTraceEnd
   auto
   autocorrect
   autofill
@@ -521,9 +538,11 @@ Referenced Strings:
   blockingTasksInBuffer
   boolean
   bounds
+  brieflyShowPassword
   buffer
   byte
   cache
+  cached_engine_group_id
   cached_engine_id
   callback
   callbackInterface
@@ -540,6 +559,7 @@ Referenced Strings:
   codePoint
   collect
   collection
+  com.google.android.inputmethod.latin
   commonPool
   comparator
   completion
@@ -552,6 +572,7 @@ Referenced Strings:
   composingExtent
   consumer
   consumerIndex
+  contentCommitMimeTypes
   context
   contextMenu
   continuation
@@ -569,6 +590,8 @@ Referenced Strings:
   creditCardSecurityCode
   currentDisplay
   dark
+  dart_entrypoint
+  dart_entrypoint_args
   data
   decimal
   decorate
@@ -606,6 +629,7 @@ Referenced Strings:
   enableSuggestions
   enable_state_restoration
   enabled
+  endIndex
   error
   exception
   executor
@@ -616,6 +640,7 @@ Referenced Strings:
   f.s.j.a.a
   f.t.d.a
   f.t.e.a
+  false
   familyName
   feature
   feature.rect
@@ -631,6 +656,7 @@ Referenced Strings:
   flutter/accessibility
   flutter/deferredcomponent
   flutter/isolate
+  flutter/keydata
   flutter/keyevent
   flutter/lifecycle
   flutter/localization
@@ -640,6 +666,7 @@ Referenced Strings:
   flutter/platform_views
   flutter/restoration
   flutter/settings
+  flutter/spellcheck
   flutter/system
   flutter/textinput
   flutter_assets
@@ -677,6 +704,7 @@ Referenced Strings:
   hintText
   hints
   hybrid
+  hybridFallback
   id
   image
   inFlightTasks
@@ -693,8 +721,10 @@ Referenced Strings:
   intent
   invokeSuspend
   io.flutter.Entrypoint
+  io.flutter.EntrypointUri
   io.flutter.InitialRoute
-  io.flutter.embedding.android.EnableSk...
+  io.flutter.embedding.android.EnableIm...
+  io.flutter.embedding.android.LeakVM
   io.flutter.embedding.android.NormalTheme
   io.flutter.embedding.android.OldGenHe...
   io.flutter.embedding.android.SplashSc...
@@ -735,6 +765,9 @@ Referenced Strings:
   java.util.Set
   java.util.concurrent.ForkJoinPool
   job
+  kDown
+  kRepeat
+  kUp
   key
   keyCode
   keydown
@@ -789,7 +822,7 @@ Referenced Strings:
   kotlinx.coroutines.fast.service.loader
   kotlinx.coroutines.flow.AbstractFlow
   kotlinx.coroutines.internal.StackTrac...
-  kotlinx.coroutines.internal.x
+  kotlinx.coroutines.internal.y
   kotlinx.coroutines.io.parallelism
   kotlinx.coroutines.scheduler
   kotlinx.coroutines.scheduler.blocking...
@@ -809,6 +842,7 @@ Referenced Strings:
   listener
   loadingUnitId
   locale
+  location
   long
   longPress
   mChildNodeIds
@@ -822,12 +856,14 @@ Referenced Strings:
   method
   middleInitial
   middleName
+  mimeType
   missingDelimiterValue
   moduleName
   move
   name
   namePrefix
   nameSuffix
+  nativeSpellCheckServiceDefined
   navigation_bar_height
   newConfig
   newDeviceState
@@ -844,6 +880,7 @@ Referenced Strings:
   oemFeature
   oemFeature.bounds
   off
+  offset
   oldText
   on
   onActivityResult
@@ -910,9 +947,8 @@ Referenced Strings:
   primaryColor
   primitiveFqNames.values
   producerIndex
-  productId
   push
-  pushRoute
+  pushRouteInformation
   put
   range
   read
@@ -963,6 +999,7 @@ Referenced Strings:
   setRemoveOnCancelPolicy
   setSidecarCallback
   short
+  show_password
   sidecarAdapter
   sidecarCompat
   sidecarDeviceState
@@ -977,12 +1014,14 @@ Referenced Strings:
   splitPairFilters
   splitRule
   splitRules
+  startIndex
   state
   statusBarColor
   statusBarIconBrightness
   streetAddress
   string
   suffix
+  suggestions
   surface
   synchronizeToNativeViewHierarchy
   systemNavigationBarColor
@@ -999,26 +1038,29 @@ Referenced Strings:
   text/plain
   textCapitalization
   textScaleFactor
+  textservices
   texture
   this$0
   throwableMethods
   token
   tooltip
+  top
   touch
   tracker
   transform
   transformer
   transition_animation_scale
   transparent
+  true
   truncated
   type
   uninstallDeferredComponent
   uniqueIdentifier
   updateViewLayout
+  uri
   username
   usesVirtualDisplay
   value
-  vendorId
   verticalText
   view
   viewFocused
@@ -1255,11 +1297,11 @@ attr:activityAction:2130771968,
    attr:android_endY:-1,
    attr:android_tileMode:-1,
    attr:android_offset:-1
-Skipped unused resource res/drawable/notification_bg.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/drawable/notification_bg_low.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/drawable/notification_icon_background.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/drawable/notification_tile_bg.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/drawable-v21/notification_action_background.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/drawable/notification_bg.xml: 532 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/drawable/notification_bg_low.xml: 532 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/drawable/notification_icon_background.xml: 372 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/drawable/notification_tile_bg.xml: 304 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/drawable-v21/notification_action_background.xml: 1180 bytes (replaced with small dummy file of size 104 bytes)
 Skipped unused resource res/drawable-mdpi-v4/notification_bg_low_normal.9.png: 215 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-mdpi-v4/notification_bg_low_pressed.9.png: 223 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-mdpi-v4/notification_bg_normal.9.png: 215 bytes (replaced with small dummy file of size 77 bytes)
@@ -1275,20 +1317,20 @@ Skipped unused resource res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png:
 Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png: 247 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png: 138 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/layout/custom_dialog.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout/notification_action.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout-v17/notification_action.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout/notification_action_tombstone.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout-v17/notification_action_tombstone.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout-v16/notification_template_custom_big.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout-v17/notification_template_custom_big.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout/notification_template_icon_group.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout/notification_template_part_chronometer.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout/notification_template_part_time.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout-v21/notification_action.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout-v21/notification_action_tombstone.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout-v21/notification_template_custom_big.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout-v21/notification_template_icon_group.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/custom_dialog.xml: 612 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/notification_action.xml: 1092 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v17/notification_action.xml: 1156 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/notification_action_tombstone.xml: 1268 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v17/notification_action_tombstone.xml: 1332 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v16/notification_template_custom_big.xml: 3012 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v17/notification_template_custom_big.xml: 3208 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/notification_template_icon_group.xml: 392 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/notification_template_part_chronometer.xml: 440 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/notification_template_part_time.xml: 440 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v21/notification_action.xml: 1052 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v21/notification_action_tombstone.xml: 1228 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v21/notification_template_custom_big.xml: 2456 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v21/notification_template_icon_group.xml: 988 bytes (replaced with small dummy file of size 104 bytes)
 Skipped unused resource res/mipmap-mdpi-v4/ic_launcher.png: 405 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/mipmap-hdpi-v4/ic_launcher.png: 507 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/mipmap-xhdpi-v4/ic_launcher.png: 684 bytes (replaced with small dummy file of size 67 bytes)

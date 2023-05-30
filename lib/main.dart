@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -150,7 +149,7 @@ class _HomeState extends State<Home> {
                 child: ListView(
                   children: <Widget>[
                     ListTile(
-                      leading: FaIcon(FontAwesomeIcons.thermometerHalf,
+                      leading: FaIcon(FontAwesomeIcons.temperatureHalf,
                           color: Colors.teal[400]),
                       title: Text(
                         "Temperature",
